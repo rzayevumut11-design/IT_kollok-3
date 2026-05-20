@@ -1,0 +1,42 @@
+# 45 ci
+#numbers = list(map(int, input("Ədədləri boşluqla daxil edin: ").split()))
+
+#result = list(filter(lambda x: x > 10, numbers))
+
+#print("10-dan böyük ədədlər:", result)
+
+# 46 ci
+class Car:
+    def __init__(self, marka, model, il):
+        self.marka = marka
+        self.model = model
+        self.il = il
+
+    def show_details(self):
+        print("Marka:", self.marka)
+        print("Model:", self.model)
+        print("İl:", self.il)
+
+
+# Car 1 məlumatları
+marka1 = input("1-ci maşının markası: ")
+model1 = input("1-ci maşının modeli: ")
+il1 = int(input("1-ci maşının ili: "))
+
+# Car 2 məlumatları
+marka2 = input("2-ci maşının markası: ")
+model2 = input("2-ci maşının modeli: ")
+il2 = int(input("2-ci maşının ili: "))
+
+
+# Obyektlər yaratmaq
+car1 = Car(marka1, model1, il1)
+car2 = Car(marka2, model2, il2)
+
+
+# Məlumatları göstərmək
+print("\n1-ci maşın:")
+car1.show_details()
+
+print("\n2-ci maşın:")
+car2.show_details()
