@@ -1,9 +1,9 @@
 # 45 ci
-#numbers = list(map(int, input("Ədədləri boşluqla daxil edin: ").split()))
+numbers = list(map(int, input("Ədədləri boşluqla daxil edin: ").split()))
 
-#result = list(filter(lambda x: x > 10, numbers))
+result = list(filter(lambda x: x > 10, numbers))
 
-#print("10-dan böyük ədədlər:", result)
+print("10-dan böyük ədədlər:", result)
 
 # 46 ci
 class Car:
